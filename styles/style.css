@@ -1,0 +1,12 @@
+.banner-title {
+  min-width: 640px;
+}
+
+.banner-text {
+  min-width: 456px;
+}
+.book-button {
+  padding: 10px 40px;
+  color: #3f87f5;
+  background-color: #fff;
+}
