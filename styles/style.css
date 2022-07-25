@@ -1,12 +1,58 @@
 .banner-title {
-  min-width: 640px;
+  max-width: 640px;
+  margin-inline: auto;
 }
 
 .banner-text {
-  min-width: 456px;
+  max-width: 456px;
+  margin-inline: auto;
 }
 .book-button {
   padding: 10px 40px;
   color: #3f87f5;
   background-color: #fff;
+}
+
+.package {
+  max-width: 230px;
+  height: 480;
+}
+
+.package-amount,
+.package-title {
+  color: #231d4f;
+
+  font-weight: 700;
+}
+
+.package-amount {
+  font-size: 36px;
+}
+
+.package-title {
+  font-size: 28px;
+}
+
+.package-text,
+.package-offer {
+  color: #848199;
+  max-width: 200px;
+}
+
+.package-button {
+  background-color: rgb(244, 150, 209, 0.2);
+  padding: 13px 62px;
+  border: none;
+  border-radius: 24px;
+  font-weight: 700;
+  color: #3f87f5;
+}
+
+.package-highlighted {
+  background-color: #3f87f5;
+  border-radius: 26px;
+  /* padding-top: 50px; */
+  padding-bottom: 43px;
+  padding-left: 30px;
+  max-width: 290px;
 }
